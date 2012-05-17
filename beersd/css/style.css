@@ -1,0 +1,167 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* HTML ELEMENTS */
+body { background-color:#330203; font:62.5% Georgia,'Times New Roman',serif; letter-spacing:1; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* HEADER */
+#header { height:600px; }
+.headerimg { background-position: center top; background-repeat: no-repeat; width:100%; height:600px; position:absolute; }
+
+/* NAVIGATION */
+#nav-outer { height:110px; padding-top:11px; position:relative; top:24px; background-image:url("../images/headerbg.png"); }
+#navigation { height:100px; width:960px; margin:0 auto; background-image:url("../images/logo.png"); background-position:top left; background-repeat:no-repeat; }
+
+
+/* MENU */
+#menu { position:relative; top:85px; }
+#menu ul { list-style:none; }
+#menu ul li { display:inline; font-variant:small-caps; font-size:20px; }
+#menu ul li a { color:white; text-decoration:none; font-weight:bold; padding-right:20px; }
+#menu ul li a:hover { text-decoration:underline; }
+
+/* HEADER TEXT */
+#headertxt { width:960px; margin:0 auto; clear:both; position:relative; top:74px; }
+#firstline { background-image:url("../images/textbg.png"); color:#333; font-size:40px; padding:4px 13px 7px; float:left; display:block; }
+#secondline { background-image:url("../images/textbg.png"); color:#CD2B3A; text-decoration:none; font-size:30px; padding:0 13px 10px; float:left; display:block; clear:both; }
+#secondline:hover { text-decoration:underline; color:#7F000C; }
+
+.pictured { background-color:#CC3333; color:#FFF; font-size:12px; padding:9px 16px; text-transform:uppercase; float:left; display:block; clear:both; margin-top:10px; }
+.pictured a { font-size:16px; font-style:italic; letter-spacing:0; text-transform:none; color:#FFF; text-decoration:none; }
+.pictured a:hover { text-decoration:underline; }
+
+/* CONTROLS */
+.btn { height:32px; width:32px; float:left; cursor:pointer; }
+#back { background-image:url("../images/btn_back.png"); }
+#next { background-image:url("../images/btn_next.png"); }
+#control { background-image:url("../images/btn_pause.png"); }
+
+/* HEADER HAVIGATION */
+#headernav-outer { position:relative; top:400px; margin:0 auto; width:960px; }
+#headernav { padding-left:864px; }
+
+/* CONTENT */
+#content { color:#eee; background-color:#c03405;}
+#content p { padding:10px 20px; font-size:16px; width:960px; margin:0 auto; }
+#content p a { text-decoration:none; color:#CD2B3A; }
+#content p a:hover { text-decoration:underline; color:#7F000C; }
+
+/* PORTFOLIO INFO PANEL STYES */
+
+.info-panel-portfolio {
+	width: 30%;
+	background: #707070;
+	position: relative;
+	float: left;
+	margin: 0 0 66px 4.99%;
+	display: inline;
+}
+
+.info-panel-portfolio-left {
+	margin-left: 0;
+}
+
+.info-panel-portfolio .portfolio-image-holder img {
+	display: block;
+	width: 100%;
+}
+
+.info-panel-portfolio .info-panel {
+	background: #000;
+} 
+
+.info-panel-portfolio .more-info {
+	height: 18px;
+	width: 67px;
+	background: #e8165e url(../ui/more.info.tab.horiz.gif) left top no-repeat;
+	display: block;
+	position: absolute;
+	bottom: -18px;
+	left: 10px;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+/* INFO PANEL FIGURE */
+			
+			.boxgrid{ 
+				width: 325px; 
+				height: 260px; 
+				margin:10px; 
+				float:left; 
+				background:#161613; 
+				border: solid 2px #8399AF; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.boxgrid img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				.boxgrid p{ 
+					padding: 0 10px; 
+					color:#afafaf; 
+					font-weight:bold; 
+					font:10pt "Lucida Grande", Arial, sans-serif; 
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #000; 
+				height: 100px; 
+				width: 100%; 
+				opacity: .8; 
+ 				.captionfull .boxcaption {
+ 					top: 260;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 220;
+ 					left: 0;
+ 				}
+				
+}
+
+
+h3{
+	color: white;
+	font-size: 26px;
+	font-family:"Century Gothic";
+	padding-left: 10px;
+}
+
+h4{
+	color: black;
+	font-size: 50px;
+	font-family:"Century Gothic";
+	padding-left: 86px;
+}
+
+h5{
+	color: black;
+	font-size: 25px;
+	font-family:"Century Gothic";
+	padding-left: 86px;
+}
+
+/* CONTENT 2 */
+#content2 { color:black; background-color:#ffd69b;;}
+#content2 p { padding:10px 20px; font-size:16px; width:960px; margin:0 auto; }
+#content2 p a { text-decoration:none; color:#CD2B3A; }
+#content2 p a:hover { text-decoration:underline; color:#7F000C; }
+
+.floatimgleft2 {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float:left;
+	margin-left:0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color:black;
+}

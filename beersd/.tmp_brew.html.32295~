@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>Beautiful advanced jQuery background image slideshow</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/boxscript.js"></script>		
+</head>
+<body>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	test
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	
+			<div class="boxgrid captionfull">
+				<img src="jareck.jpg"/>
+				<div class="cover boxcaption">
+					<h3>Jarek Kubicki</h3>
+					<p>Artist<br/><a href="http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/" target="_BLANK">More Work</a></p>
+				</div>		
+			</div>
+			
+			<div class="boxgrid thecombo2">
+				<img class="cover"src="kamil.jpg"/>
+					<h3>Kamil Smala</h3>
+					<p>Artist<br/><a href="http://www.nonsensesociety.com/2009/03/the-art-of-kamil-smala/" target="_BLANK">More Work</a></p>
+			</div>
+				
+			<div class="boxgrid slideright">
+				<img class="cover" src="martin.jpg"/>
+				<h3>Martin Stranka</h3>
+				<p>Photographer<br/><a href="http://www.nonsensesociety.com/2009/03/photography-by-martin-stranka/" target="_BLANK">More Work</a></p>
+			</div>
+			<div class="boxgrid thecombo">
+				<img class="cover" src="florian.jpg"/>
+				<h3>Florian Nicolle</h3>
+				<p>Graphic Designer<br/><a href="http://www.nonsensesociety.com/2009/03/portrait-week-florian-nicolle/" target="_BLANK">More Work</a></p>
+			</div>
+			
+			<div class="boxgrid slidedown">
+				<img class="cover" src="nonsense.jpg"/>
+					<h3>The Nonsense Society</h3>
+					<p>Art, Music, Word<br/><a href="http://www.nonsensesociety.com" target="_BLANK">Website</a></p>	
+			</div>
+			<div class="boxgrid peek">
+				<a href="http://feeds2.feedburner.com/buildinternet" target="_BLANK"><img src="birss.jpg"/></a>
+				<a href="http://www.buildinternet.com" target="_BLANK"><img class="cover" src="buildinternet.jpg"/></a>
+			</div>
+
+	
+	</body>
+</html>
