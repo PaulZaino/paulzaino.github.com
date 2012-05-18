@@ -157,7 +157,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #FCFCFC;
 }
 
 a {
@@ -504,9 +504,18 @@ h5 {
 }
 
 h6 {
-  font-size: 11px;
-  color: #999999;
+  font-size: 25px;
+  color: black;
   text-transform: uppercase;
+}
+
+.section-header{
+	
+}
+
+.section-header h1 {
+	line-height: 1;
+	font size: 60px;
 }
 
 .page-header {
